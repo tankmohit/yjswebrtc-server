@@ -1,0 +1,17 @@
+{
+  "name": "yjswebrtc-server",
+  "module": "server.js",
+  "type": "module",
+  "scripts": {
+    "start":"bun server.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "y-webrtc": "^10.3.0"
+  }
+}
